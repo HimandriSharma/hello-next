@@ -98,7 +98,7 @@ export default function Home() {
               Templs <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-              Discover and deploy boilerplate example Next.js&nbsp;projects.
+              Discover here again and deploy boilerplate example Next.js&nbsp;projects.
             </p>
           </a>
 
