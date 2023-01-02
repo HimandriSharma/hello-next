@@ -73,7 +73,6 @@ export default function Home() {
               Find in-depth information about Next.js features and&nbsp;API.
             </p>
           </a>
-          here is a change in main repo
           <a
             href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
@@ -97,6 +96,7 @@ export default function Home() {
             <h2 className={inter.className}>
               Templs <span>-&gt;</span>
             </h2>
+            <h3>Testing something out here</h3>
             <p className={inter.className}>
               Discover here again and deploy boilerplate example Next.js&nbsp;projects.
             </p>
