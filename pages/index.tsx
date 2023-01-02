@@ -83,7 +83,7 @@ export default function Home() {
               Learn <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-              Learn about himandrisharma at <a href='https://himandrisharma.tk'>himandrisharma.tk</a>
+              Learn about himandrisharma
             </p>
           </a>
 
