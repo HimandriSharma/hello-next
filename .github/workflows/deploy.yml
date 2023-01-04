@@ -17,5 +17,5 @@ jobs:
           vercel-args: '--prod' #Optional
           vercel-org-id: ${{ secrets.ORG_ID}}  #Required
           vercel-project-id: ${{ secrets.PROJECT_ID}} #Required 
-          alias-domains: | 
-            test.prod.gauravjain98.com
+          # alias-domains: | 
+          #   test.prod.gauravjain98.com
