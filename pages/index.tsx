@@ -17,7 +17,7 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.description}>
           <p>
-            This is release 1 for test.
+            Here is 2nd release.
           </p>
           <div>
             <a
