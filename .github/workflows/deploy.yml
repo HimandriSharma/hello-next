@@ -1,9 +1,7 @@
 name: Deploy to Production
 on:
   release:
-    types: [published]
-  workflow_dispatch:
-
+    types: [created]
 jobs:
   deploy:
     runs-on: ubuntu-latest
