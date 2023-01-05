@@ -10,17 +10,15 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       #  your build commands
-      # - run: |
-      #    ng build --prod
-      # - run : |
-      #     echo '{"version":2,"public":false,"github":{"enabled":false}}' > vercel.json
+      - run : |
+          echo '{"version":2,"public":false,"github":{"enabled":false}}' > vercel.json
       - uses: amondnet/vercel-action@v20 #deploy
         with:
           vercel-token: ${{ secrets.VERCEL_TOKEN }} # Required
-          github-token: ${{ secrets.PROD_GITHUB_TOKEN }} #Optional 
+          # github-token: ${{ secrets.PROD_GITHUB_TOKEN }} #Optional 
           vercel-args: '--prod' #Optional
           vercel-org-id: ${{ secrets.ORG_ID}}  #Required
           vercel-project-id: ${{ secrets.PROJECT_ID}} #Required 
           working-directory: ./
-          alias-domains: | 
-            test.stage.gauravjain98.com
+          # alias-domains: | 
+          #   test.stage.gauravjain98.com
